@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Custom scrollbar for better look in dark themes */
+.monaco-editor-background {
+  scrollbar-width: thin;
+  scrollbar-color: #4a4a4a #1e1e1e; /* thumb track */
+}
+
+.monaco-editor-background::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.monaco-editor-background::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+.monaco-editor-background::-webkit-scrollbar-thumb {
+  background-color: #4a4a4a;
+  border-radius: 4px;
+  border: 2px solid #1e1e1e;
+}
